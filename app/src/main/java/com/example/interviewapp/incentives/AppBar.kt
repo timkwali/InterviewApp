@@ -16,7 +16,8 @@ fun AppBar(text: String, modifier: Modifier = Modifier) {
     TopAppBar(
         navigationIcon = {Icon(imageVector = Icons.Filled.ArrowBack, contentDescription = "Back Arrow")},
         title = { Text(text = text, color = Color.Black)},
-        modifier = modifier.background(Color.White)
+        modifier = modifier.background(Color.White),
+        backgroundColor = Color.White
     )
 }
 
